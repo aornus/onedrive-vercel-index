@@ -29,13 +29,23 @@ module.exports = {
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
   // googleFontSans - the sans serif font used in onedrive-vercel-index.
-  googleFontSans: 'Ma Shan Zheng',
+  ///googleFontSans: 'Ma Shan Zheng',
+  // googleFontMono - the monospace font used in onedrive-vercel-index.
+  ///googleFontMono: 'Fira Mono',
+  // googleFontLinks -  an array of links for referencing the google font assets.
+  //googleFontLinks: ['https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap'],
+  ///googleFontLinks: ['https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap'],
+
+  
+   // [OPTIONAL] We use Google Fonts natively for font customisations.
+  // You can check and generate the required links and names at https://fonts.google.com.
+  // googleFontSans - the sans serif font used in onedrive-vercel-index.
+  googleFontSans: 'Inter',
   // googleFontMono - the monospace font used in onedrive-vercel-index.
   googleFontMono: 'Fira Mono',
   // googleFontLinks -  an array of links for referencing the google font assets.
-  //googleFontLinks: ['https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap'],
-  googleFontLinks: ['https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap'],
-
+  googleFontLinks: ['https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap'],
+  
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
@@ -46,7 +56,7 @@ module.exports = {
   protectedRoutes: ['/注塑模/说明书/', ],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: '',
+  email: 'me@si-on.top',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
